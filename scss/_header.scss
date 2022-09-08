@@ -1,0 +1,44 @@
+/* menu index */
+.menu__index {
+    width: 100%;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+    background-color: #A6A6A6;
+    font-family: sneakers-pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    position:fixed;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: all 2s;
+}
+
+.menu__index:hover {
+    border-color: #595959;
+    background-color: #262626;
+}
+/* menu no index */
+.menu__no__index {
+    width: 100%;
+    border-width: 10px;
+    border-style: double;
+    border-color: black;
+    background-color: #A6A6A6;
+    font-family: sneakers-pro, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    position:sticky;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: all 2s;
+}
+
+.menu__no__index:hover {
+    border-color: #595959;
+    background-color: #262626;
+}

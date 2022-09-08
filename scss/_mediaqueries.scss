@@ -1,0 +1,39 @@
+       /* media queries Index */
+       @media only screen and (max-width: 500px){
+        .img__index{
+            margin-top: 94px;
+            width: 100%;
+            height: 45vh;
+        }
+        #footer {
+            height: 10vh;
+            border-width: 10px;
+            border-style: double;
+            border-color: #595959 ;
+            
+        }
+    
+    }
+    @media only screen and (max-width: 1024px) 
+    {
+    
+    }
+    
+    /* media queries Equipo */
+    @media only screen and (max-width: 500px){
+        .img__barberos {
+            width: 350px;
+            height: 350px;
+        }
+        #footer {
+            height: 10vh;
+            border-width: 10px;
+            border-style: double;
+            border-color: #595959 ;
+            
+        }
+    }
+    @media only screen and (max-width: 1024px) 
+    {
+    
+    }

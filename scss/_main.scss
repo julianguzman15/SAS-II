@@ -1,0 +1,50 @@
+#main {
+    height: auto;
+    }
+ /* Css index */
+   
+    
+ .img__index{
+    margin-top: 94px;
+    width: 100%;
+    height: 95vh;
+}
+
+.main__index {
+    background-color: #262626;
+}
+
+/* Css no index */
+
+
+.bg__main {
+    background-image: map-get($bg-color , radial ) 
+}
+
+.img__barberos {
+    @include size-img;
+    transition: all 2s;
+    transform:skew(0deg,0deg);
+}
+
+.img__barberos:hover{
+    transform:skew(2deg,2deg);
+}
+.centrar__carusel {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+  }
+/* Css Galeria */
+.img__galeria {
+    @include size-img;
+}
+
+
+/* Css Eventos */
+.img__eventos {
+    @extend .img__galeria;
+    width: 500px;
+    height: 400px;
+}
+
