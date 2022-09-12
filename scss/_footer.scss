@@ -5,3 +5,7 @@
     border-color: #595959 ;
     background-image: map-get($bg-color, lineal )
 }
+
+.iconos__footer {
+  @include iconos;
+}
