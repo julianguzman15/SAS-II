@@ -15,3 +15,8 @@ $bg-color: (
     height:60px;
     width: 60px;
 }
+
+@mixin cajas-contacto {
+    height: 300px;
+    width: 300px;
+}

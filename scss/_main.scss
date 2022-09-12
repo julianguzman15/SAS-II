@@ -48,3 +48,25 @@
     height: 400px;
 }
 
+.vid__eventos {
+    width: 560px;
+    height: 315px;
+}
+
+/* Css Contacto */
+
+.size__maps {
+    @include cajas-contacto;
+}
+
+.mapa__posicion {
+    height: 400px;
+    width: 400px;
+    }
+.centrar__lista {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 5vh;
+}
