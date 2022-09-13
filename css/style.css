@@ -87,8 +87,8 @@
   height: 400px; }
 
 .vid__eventos {
-  width: 560px;
-  height: 315px; }
+  width: 500px;
+  height: 500px; }
 
 /* Css Contacto */
 .size__maps {
@@ -120,9 +120,9 @@
 /* media queries Index */
 @media only screen and (max-width: 500px) {
   .img__index {
-    height: 45vh; }
+    height: 600px; }
   #footer {
-    height: 140px; } }
+    height: 440px; } }
 
 /* media queries Equipo */
 @media only screen and (max-width: 500px) {
@@ -151,8 +151,8 @@
 /* media queries Contacto*/
 @media only screen and (max-width: 500px) {
   .size__maps {
-    height: 250px;
-    width: 250px; }
+    height: 300px;
+    width: 300px; }
   .mapa__posicion {
     height: 300px;
     width: 300px; } }

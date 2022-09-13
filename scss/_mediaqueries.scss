@@ -1,16 +1,16 @@
        /* media queries Index */
        @media only screen and (max-width: 500px){
         .img__index{
-            height: 45vh;
+            height: 600px;
         }
         #footer {
-            height: 140px;        
+            height: 440px;        
         }
+        
     
     }
-    @media only screen and (max-width: 1024px) 
+    @media only screen and (max-width: 425px) 
     {
-    
     }
     
     /* media queries Equipo */
@@ -61,8 +61,8 @@
      /* media queries Contacto*/
     @media only screen and (max-width: 500px){
         .size__maps {
-            height: 250px;
-            width: 250px;
+            height: 300px;
+            width: 300px;
         }
         
         .mapa__posicion {
